@@ -31,10 +31,3 @@
 ## Diagramme UML
 
 Un diagramme de classes ou un MCD est en cours d'élaboration pour illustrer la relation entre les entités du projet.
-
-## Développement
-
-- **Langage :** [à compléter]
-- **Framework :** [à compléter]
-- **Base de données :** [à compléter]
-- **Versioning :** Gestion des versions via GitHub
