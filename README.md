@@ -1,7 +1,3 @@
-Voici une version en français du README pour le projet **Crédit-Céleste** :
-
----
-
 # Crédit-Céleste : Application de Gestion des Voitures d'Occasion
 
 ## Vue d'ensemble
