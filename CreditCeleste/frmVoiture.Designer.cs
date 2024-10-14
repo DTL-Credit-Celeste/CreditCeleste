@@ -151,9 +151,9 @@
             // 
             // btnInfo
             // 
-            this.btnInfo.Location = new System.Drawing.Point(180, 245);
+            this.btnInfo.Location = new System.Drawing.Point(219, 292);
             this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(149, 104);
+            this.btnInfo.Size = new System.Drawing.Size(110, 57);
             this.btnInfo.TabIndex = 17;
             this.btnInfo.Text = "Introduction";
             this.btnInfo.UseVisualStyleBackColor = true;
