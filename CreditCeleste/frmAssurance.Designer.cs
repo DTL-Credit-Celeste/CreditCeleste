@@ -76,9 +76,9 @@ namespace CreditCeleste
             this.label7.Location = new System.Drawing.Point(13, 191);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 17);
+            this.label7.Size = new System.Drawing.Size(66, 17);
             this.label7.TabIndex = 44;
-            this.label7.Text = "Vendeur";
+            this.label7.Text = "Vendeur:";
             // 
             // btnValider
             // 
@@ -369,7 +369,8 @@ namespace CreditCeleste
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.cboCiv);
             this.Name = "frmAssurance";
-            this.Text = "frmAssurance";
+            this.ShowIcon = false;
+            this.Text = "Credit Celeste - Assurance";
             this.gpbDureeAssurance.ResumeLayout(false);
             this.gpbDureeAssurance.PerformLayout();
             this.ResumeLayout(false);
