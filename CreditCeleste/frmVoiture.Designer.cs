@@ -280,7 +280,7 @@
             this.Name = "frmVoiture";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Voiture";
+            this.Text = "Credit Celeste - Voiture";
             this.Load += new System.EventHandler(this.frmVoiture_Load);
             this.gpbAgeVehicule.ResumeLayout(false);
             this.gpbAgeVehicule.PerformLayout();
