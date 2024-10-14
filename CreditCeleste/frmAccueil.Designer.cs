@@ -37,9 +37,10 @@
             // 
             // btnIntro
             // 
-            this.btnIntro.Location = new System.Drawing.Point(15, 78);
+            this.btnIntro.Location = new System.Drawing.Point(16, 30);
+            this.btnIntro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIntro.Name = "btnIntro";
-            this.btnIntro.Size = new System.Drawing.Size(75, 23);
+            this.btnIntro.Size = new System.Drawing.Size(100, 30);
             this.btnIntro.TabIndex = 0;
             this.btnIntro.Text = "&Introduction";
             this.btnIntro.UseVisualStyleBackColor = true;
@@ -47,18 +48,20 @@
             // 
             // btnEtude
             // 
-            this.btnEtude.Location = new System.Drawing.Point(96, 78);
+            this.btnEtude.Location = new System.Drawing.Point(124, 30);
+            this.btnEtude.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEtude.Name = "btnEtude";
-            this.btnEtude.Size = new System.Drawing.Size(75, 23);
+            this.btnEtude.Size = new System.Drawing.Size(100, 30);
             this.btnEtude.TabIndex = 1;
             this.btnEtude.Text = "&Etude";
             this.btnEtude.UseVisualStyleBackColor = true;
             // 
             // btnRelance
             // 
-            this.btnRelance.Location = new System.Drawing.Point(177, 78);
+            this.btnRelance.Location = new System.Drawing.Point(232, 30);
+            this.btnRelance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRelance.Name = "btnRelance";
-            this.btnRelance.Size = new System.Drawing.Size(75, 23);
+            this.btnRelance.Size = new System.Drawing.Size(100, 30);
             this.btnRelance.TabIndex = 2;
             this.btnRelance.Text = "&Relance";
             this.btnRelance.UseVisualStyleBackColor = true;
@@ -66,32 +69,35 @@
             // lblMonApplication
             // 
             this.lblMonApplication.AutoSize = true;
-            this.lblMonApplication.Location = new System.Drawing.Point(12, 39);
+            this.lblMonApplication.Location = new System.Drawing.Point(13, 9);
+            this.lblMonApplication.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMonApplication.Name = "lblMonApplication";
-            this.lblMonApplication.Size = new System.Drawing.Size(29, 13);
+            this.lblMonApplication.Size = new System.Drawing.Size(37, 17);
             this.lblMonApplication.TabIndex = 3;
             this.lblMonApplication.Text = "Nom";
             // 
             // lblRegion
             // 
             this.lblRegion.AutoSize = true;
-            this.lblRegion.Location = new System.Drawing.Point(12, 9);
+            this.lblRegion.Location = new System.Drawing.Point(171, 9);
+            this.lblRegion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegion.Name = "lblRegion";
-            this.lblRegion.Size = new System.Drawing.Size(41, 13);
+            this.lblRegion.Size = new System.Drawing.Size(53, 17);
             this.lblRegion.TabIndex = 4;
             this.lblRegion.Text = "Région";
             // 
             // frmAccueil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(267, 110);
+            this.ClientSize = new System.Drawing.Size(350, 76);
             this.Controls.Add(this.lblRegion);
             this.Controls.Add(this.lblMonApplication);
             this.Controls.Add(this.btnRelance);
             this.Controls.Add(this.btnEtude);
             this.Controls.Add(this.btnIntro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "frmAccueil";
             this.ShowIcon = false;

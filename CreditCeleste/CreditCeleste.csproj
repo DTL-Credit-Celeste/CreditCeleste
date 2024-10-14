@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClientCC">
-      <HintPath>..\..\ClientCC\ClientCC\bin\Debug\ClientCC.dll</HintPath>
+      <HintPath>..\..\ClientCC-Alexandru\ClientCC\bin\Debug\ClientCC.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
