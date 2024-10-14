@@ -229,7 +229,7 @@
             // 
             // btnEnregistre
             // 
-            this.btnEnregistre.Location = new System.Drawing.Point(16, 219);
+            this.btnEnregistre.Location = new System.Drawing.Point(311, 219);
             this.btnEnregistre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEnregistre.Name = "btnEnregistre";
             this.btnEnregistre.Size = new System.Drawing.Size(100, 24);
@@ -240,7 +240,7 @@
             // 
             // btnVoiture
             // 
-            this.btnVoiture.Location = new System.Drawing.Point(124, 219);
+            this.btnVoiture.Location = new System.Drawing.Point(16, 219);
             this.btnVoiture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVoiture.Name = "btnVoiture";
             this.btnVoiture.Size = new System.Drawing.Size(100, 24);
@@ -251,10 +251,10 @@
             // 
             // btnValider
             // 
-            this.btnValider.Location = new System.Drawing.Point(502, 219);
+            this.btnValider.Location = new System.Drawing.Point(419, 219);
             this.btnValider.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnValider.Name = "btnValider";
-            this.btnValider.Size = new System.Drawing.Size(100, 24);
+            this.btnValider.Size = new System.Drawing.Size(183, 24);
             this.btnValider.TabIndex = 15;
             this.btnValider.Text = "Valider";
             this.btnValider.UseVisualStyleBackColor = true;
