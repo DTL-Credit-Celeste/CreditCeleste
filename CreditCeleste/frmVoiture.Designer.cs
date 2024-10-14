@@ -58,9 +58,9 @@
             this.gpbAgeVehicule.Controls.Add(this.rdbOccasMoins3);
             this.gpbAgeVehicule.Controls.Add(this.rdbNeuf);
             this.gpbAgeVehicule.Location = new System.Drawing.Point(333, 36);
-            this.gpbAgeVehicule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gpbAgeVehicule.Margin = new System.Windows.Forms.Padding(4);
             this.gpbAgeVehicule.Name = "gpbAgeVehicule";
-            this.gpbAgeVehicule.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gpbAgeVehicule.Padding = new System.Windows.Forms.Padding(4);
             this.gpbAgeVehicule.Size = new System.Drawing.Size(291, 144);
             this.gpbAgeVehicule.TabIndex = 9;
             this.gpbAgeVehicule.TabStop = false;
@@ -70,7 +70,7 @@
             // 
             this.rdbOccas5OuPlus.AutoSize = true;
             this.rdbOccas5OuPlus.Location = new System.Drawing.Point(8, 110);
-            this.rdbOccas5OuPlus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbOccas5OuPlus.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccas5OuPlus.Name = "rdbOccas5OuPlus";
             this.rdbOccas5OuPlus.Size = new System.Drawing.Size(177, 21);
             this.rdbOccas5OuPlus.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             this.rdbOccas3a5.AutoSize = true;
             this.rdbOccas3a5.Location = new System.Drawing.Point(8, 81);
-            this.rdbOccas3a5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbOccas3a5.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccas3a5.Name = "rdbOccas3a5";
             this.rdbOccas3a5.Size = new System.Drawing.Size(171, 21);
             this.rdbOccas3a5.TabIndex = 2;
@@ -92,7 +92,7 @@
             // 
             this.rdbOccasMoins3.AutoSize = true;
             this.rdbOccasMoins3.Location = new System.Drawing.Point(8, 52);
-            this.rdbOccasMoins3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbOccasMoins3.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccasMoins3.Name = "rdbOccasMoins3";
             this.rdbOccasMoins3.Size = new System.Drawing.Size(156, 21);
             this.rdbOccasMoins3.TabIndex = 1;
@@ -103,7 +103,7 @@
             // 
             this.rdbNeuf.AutoSize = true;
             this.rdbNeuf.Location = new System.Drawing.Point(8, 23);
-            this.rdbNeuf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbNeuf.Margin = new System.Windows.Forms.Padding(4);
             this.rdbNeuf.Name = "rdbNeuf";
             this.rdbNeuf.Size = new System.Drawing.Size(59, 21);
             this.rdbNeuf.TabIndex = 0;
@@ -113,7 +113,7 @@
             // txtNumImmat
             // 
             this.txtNumImmat.Location = new System.Drawing.Point(189, 36);
-            this.txtNumImmat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumImmat.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumImmat.Name = "txtNumImmat";
             this.txtNumImmat.Size = new System.Drawing.Size(132, 22);
             this.txtNumImmat.TabIndex = 14;
@@ -121,7 +121,7 @@
             // txtNouveauVhc
             // 
             this.txtNouveauVhc.Location = new System.Drawing.Point(492, 6);
-            this.txtNouveauVhc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNouveauVhc.Margin = new System.Windows.Forms.Padding(4);
             this.txtNouveauVhc.Name = "txtNouveauVhc";
             this.txtNouveauVhc.Size = new System.Drawing.Size(132, 22);
             this.txtNouveauVhc.TabIndex = 13;
@@ -129,7 +129,7 @@
             // txtDate1ereImat
             // 
             this.txtDate1ereImat.Location = new System.Drawing.Point(189, 6);
-            this.txtDate1ereImat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDate1ereImat.Margin = new System.Windows.Forms.Padding(4);
             this.txtDate1ereImat.Name = "txtDate1ereImat";
             this.txtDate1ereImat.Size = new System.Drawing.Size(132, 22);
             this.txtDate1ereImat.TabIndex = 12;
@@ -137,7 +137,7 @@
             // txtPuissance
             // 
             this.txtPuissance.Location = new System.Drawing.Point(189, 96);
-            this.txtPuissance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPuissance.Margin = new System.Windows.Forms.Padding(4);
             this.txtPuissance.Name = "txtPuissance";
             this.txtPuissance.Size = new System.Drawing.Size(132, 22);
             this.txtPuissance.TabIndex = 11;
@@ -145,7 +145,7 @@
             // txtNumSerie
             // 
             this.txtNumSerie.Location = new System.Drawing.Point(189, 66);
-            this.txtNumSerie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumSerie.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumSerie.Name = "txtNumSerie";
             this.txtNumSerie.Size = new System.Drawing.Size(132, 22);
             this.txtNumSerie.TabIndex = 15;
@@ -153,7 +153,7 @@
             // btnValider
             // 
             this.btnValider.Location = new System.Drawing.Point(441, 188);
-            this.btnValider.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnValider.Margin = new System.Windows.Forms.Padding(4);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(183, 24);
             this.btnValider.TabIndex = 18;
@@ -164,7 +164,7 @@
             // btnInfo
             // 
             this.btnInfo.Location = new System.Drawing.Point(16, 188);
-            this.btnInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInfo.Margin = new System.Windows.Forms.Padding(4);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(100, 24);
             this.btnInfo.TabIndex = 17;
@@ -175,7 +175,7 @@
             // btnEnregistre
             // 
             this.btnEnregistre.Location = new System.Drawing.Point(333, 188);
-            this.btnEnregistre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnregistre.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnregistre.Name = "btnEnregistre";
             this.btnEnregistre.Size = new System.Drawing.Size(100, 24);
             this.btnEnregistre.TabIndex = 16;
@@ -275,12 +275,12 @@
             this.Controls.Add(this.txtPuissance);
             this.Controls.Add(this.gpbAgeVehicule);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmVoiture";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Credit Celeste - Voiture";
+            this.Text = "Credit Celeste - VoitureNeuve";
             this.Load += new System.EventHandler(this.frmVoiture_Load);
             this.gpbAgeVehicule.ResumeLayout(false);
             this.gpbAgeVehicule.PerformLayout();
