@@ -309,7 +309,7 @@
             this.Name = "frmIntro";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Introduction";
+            this.Text = "Credit Celeste - Introduction";
             this.Load += new System.EventHandler(this.frmIntro_Load);
             this.gpbAgeVehicule.ResumeLayout(false);
             this.gpbAgeVehicule.PerformLayout();

@@ -102,7 +102,7 @@
             this.Name = "frmAccueil";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Acceuil";
+            this.Text = "Credit Celeste - Acceuil";
             this.Load += new System.EventHandler(this.frmAccueil_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
