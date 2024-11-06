@@ -23,18 +23,18 @@ namespace CreditCeleste
 
             if (Globales.uneVoiture != null)
             {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+                //foreach (Control xControl in gpbAgeVehicule.Controls)
+                //{
+                //    if (xControl is RadioButton radioButton)
+                //    {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+                //        if (radioButton.Name == Globales.btnAgeCocher)
+                //        {
+                //            radioButton.Checked = true;
+                //            break; // Sort de la boucle une fois trouvé
+                //        }
+                //    }
+                //}
 
                 txtNouveauVhc.Text = Globales.uneVoiture.getnomvehicule();
 
@@ -50,18 +50,18 @@ namespace CreditCeleste
             }
             else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
             {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+                //foreach (Control xControl in gpbAgeVehicule.Controls)
+                //{
+                //    if (xControl is RadioButton radioButton)
+                //    {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+                //        if (radioButton.Name == Globales.btnAgeCocher)
+                //        {
+                //            radioButton.Checked = true;
+                //            break; // Sort de la boucle une fois trouvé
+                //        }
+                //    }
+                //}
 
             }
         }
@@ -81,14 +81,14 @@ namespace CreditCeleste
             }
   
             bool radioSelected = false;
-            foreach (Control xControl in gpbAgeVehicule.Controls)
-            {
-                if (xControl is RadioButton radioButton && radioButton.Checked)
-                {
-                    radioSelected = true;
-                    break;
-                }
-            }
+            //foreach (Control xControl in gpbAgeVehicule.Controls)
+            //{
+            //    if (xControl is RadioButton radioButton && radioButton.Checked)
+            //    {
+            //        radioSelected = true;
+            //        break;
+            //    }
+            //}
 
             if (!radioSelected)
             {
@@ -117,19 +117,19 @@ namespace CreditCeleste
                 string numSerie = txtNumSerie.Text;
                 string Puissance = txtPuissance.Text;
 
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton)
-                    {
-                        RadioButton radioButton = xControl as RadioButton;
+                //foreach (Control xControl in gpbAgeVehicule.Controls)
+                //{
+                //    if (xControl is RadioButton)
+                //    {
+                //        RadioButton radioButton = xControl as RadioButton;
 
-                        if (radioButton.Checked)
-                        {
-                            Globales.btnAgeCocher = radioButton.Name;
-                            break;
-                        }
-                    }
-                }
+                //        if (radioButton.Checked)
+                //        {
+                //            Globales.btnAgeCocher = radioButton.Name;
+                //            break;
+                //        }
+                //    }
+                //}
 
                 Globales.uneVoiture = new Voiture(nvVehicule, Date1erImma, numImma, numSerie, Puissance, Globales.btnAgeCocher);
 
@@ -158,18 +158,18 @@ namespace CreditCeleste
 
             if (Globales.uneVoiture != null)
             {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+                //foreach (Control xControl in gpbAgeVehicule.Controls)
+                //{
+                //    if (xControl is RadioButton radioButton)
+                //    {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+                //        if (radioButton.Name == Globales.btnAgeCocher)
+                //        {
+                //            radioButton.Checked = true;
+                //            break; // Sort de la boucle une fois trouvé
+                //        }
+                //    }
+                //}
 
                 if (!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
                 {
@@ -178,18 +178,18 @@ namespace CreditCeleste
             }
             else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
             {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+                //foreach (Control xControl in gpbAgeVehicule.Controls)
+                //{
+                //    if (xControl is RadioButton radioButton)
+                //    {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+                //        if (radioButton.Name == Globales.btnAgeCocher)
+                //        {
+                //            radioButton.Checked = true;
+                //            break; // Sort de la boucle une fois trouvé
+                //        }
+                //    }
+                //}
 
             }
         }

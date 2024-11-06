@@ -27,9 +27,10 @@ namespace CreditCeleste
             Globales.uneConcession = new Concession("Garage Soares", "66 rue des Voyages");
 
             // un vendeur
-            Vendeur unVendeur = new Vendeur("M.", "Kalck", "Damien");
-            Vendeur un2Vendeur = new Vendeur("M.", "Soares", "Daniels");
-            Vendeur un3Vendeur = new Vendeur("M.", "Beller", "Thierry");
+            Vendeur unVendeur = new Vendeur("M.", "SOARES", "Daniels");
+            Vendeur un2Vendeur = new Vendeur("M.", "BELLER", "Thierry");
+            Vendeur un3Vendeur = new Vendeur("M.", "PFISTER", "Ludo");
+            Vendeur un4Vendeur = new Vendeur("M.", "CIOBOTARU", "Alexandru");
 
             // à stocker dans la liste des vendeurs.
             //      (une manière de faire)

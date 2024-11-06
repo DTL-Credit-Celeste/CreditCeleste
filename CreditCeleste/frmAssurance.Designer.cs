@@ -370,7 +370,9 @@ namespace CreditCeleste
             this.Controls.Add(this.cboCiv);
             this.Name = "frmAssurance";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Credit Celeste - Assurance";
+            this.Load += new System.EventHandler(this.frmAssurance_Load);
             this.gpbDureeAssurance.ResumeLayout(false);
             this.gpbDureeAssurance.PerformLayout();
             this.ResumeLayout(false);
