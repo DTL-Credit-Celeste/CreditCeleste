@@ -21,8 +21,6 @@ namespace CreditCeleste
         {
             lblVendeur.Text = Globales.nomVendeur;
 
-
-
             if (Globales.uneVoiture != null)
             {
                 foreach (Control xControl in gpbAgeVehicule.Controls)
@@ -66,16 +64,12 @@ namespace CreditCeleste
                 }
 
             }
-
-
         }
 
         private void btnIntro_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-
 
         // Fonction pour vérifier si les saisies sont valides
         private bool VerifierSaisie()
@@ -105,10 +99,8 @@ namespace CreditCeleste
             return true; 
         }
 
-
         private void btnEnregistre_Click(object sender, EventArgs e)
         {
-
             if (VerifierSaisie())
             {
                 // Si la saisie est valide, exécute le reste du code
@@ -152,6 +144,7 @@ namespace CreditCeleste
 
         private void btnAssurance_Click(object sender, EventArgs e)
         {
+            // creation et ouverture de Assurance
             Globales.fenAssurance = new frmAssurance();
             Globales.fenAssurance.FormClosed += new FormClosedEventHandler(FenAssurance_FormClosed);
             Globales.fenAssurance.Show();
@@ -159,46 +152,46 @@ namespace CreditCeleste
             this.Hide();
         }
 
-        void FenAssurance_FormClosed(object sender, FormClosedEventArgs e)
+        void FenAssurance_FormClosed(object sender, FormClosedEventArgs e)  // que faire a la fermeture de Assurance
         {
             this.Show();
 
-            //if (Globales.uneVoiture != null)
-            //{
-            //    foreach (Control xControl in gpbAgeVehicule.Controls)
-            //    {
-            //        if (xControl is RadioButton radioButton)
-            //        {
+            if (Globales.uneVoiture != null)
+            {
+                foreach (Control xControl in gpbAgeVehicule.Controls)
+                {
+                    if (xControl is RadioButton radioButton)
+                    {
 
-            //            if (radioButton.Name == Globales.btnAgeCocher)
-            //            {
-            //                radioButton.Checked = true;
-            //                break; // Sort de la boucle une fois trouvé
-            //            }
-            //        }
-            //    }
+                        if (radioButton.Name == Globales.btnAgeCocher)
+                        {
+                            radioButton.Checked = true;
+                            break; // Sort de la boucle une fois trouvé
+                        }
+                    }
+                }
 
-            //    if (!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
-            //    {
-            //        txtNouvVhc.Text = Globales.uneVoiture.getnomvehicule();
-            //    }
-            //}
-            //else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
-            //{
-            //    foreach (Control xControl in gpbAgeVehicule.Controls)
-            //    {
-            //        if (xControl is RadioButton radioButton)
-            //        {
+                if (!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
+                {
+                    txtNouveauVhc.Text = Globales.uneVoiture.getnomvehicule();
+                }
+            }
+            else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
+            {
+                foreach (Control xControl in gpbAgeVehicule.Controls)
+                {
+                    if (xControl is RadioButton radioButton)
+                    {
 
-            //            if (radioButton.Name == Globales.btnAgeCocher)
-            //            {
-            //                radioButton.Checked = true;
-            //                break; // Sort de la boucle une fois trouvé
-            //            }
-            //        }
-            //    }
+                        if (radioButton.Name == Globales.btnAgeCocher)
+                        {
+                            radioButton.Checked = true;
+                            break; // Sort de la boucle une fois trouvé
+                        }
+                    }
+                }
 
-            //}
+            }
         }
     }
 }
