@@ -277,6 +277,7 @@ namespace CreditCeleste
             this.Controls.Add(this.gpbAgeVehicule);
             this.Name = "frmVoitureOccasion";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Credit Celeste - Voiture Occasion";
             this.Load += new System.EventHandler(this.frmVoitureOccasion_Load);
             this.gpbAgeVehicule.ResumeLayout(false);

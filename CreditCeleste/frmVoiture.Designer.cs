@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gpbAgeVehicule = new System.Windows.Forms.GroupBox();
-            this.rdbOccas5OuPlus = new System.Windows.Forms.RadioButton();
-            this.rdbOccas3a5 = new System.Windows.Forms.RadioButton();
-            this.rdbOccasMoins3 = new System.Windows.Forms.RadioButton();
-            this.rdbNeuf = new System.Windows.Forms.RadioButton();
             this.txtNumImmat = new System.Windows.Forms.TextBox();
             this.txtNouveauVhc = new System.Windows.Forms.TextBox();
             this.txtDate1ereImat = new System.Windows.Forms.TextBox();
@@ -49,67 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblVendeur = new System.Windows.Forms.Label();
             this.btnAssurance = new System.Windows.Forms.Button();
-            this.gpbAgeVehicule.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // gpbAgeVehicule
-            // 
-            this.gpbAgeVehicule.Controls.Add(this.rdbOccas5OuPlus);
-            this.gpbAgeVehicule.Controls.Add(this.rdbOccas3a5);
-            this.gpbAgeVehicule.Controls.Add(this.rdbOccasMoins3);
-            this.gpbAgeVehicule.Controls.Add(this.rdbNeuf);
-            this.gpbAgeVehicule.Location = new System.Drawing.Point(344, 135);
-            this.gpbAgeVehicule.Margin = new System.Windows.Forms.Padding(4);
-            this.gpbAgeVehicule.Name = "gpbAgeVehicule";
-            this.gpbAgeVehicule.Padding = new System.Windows.Forms.Padding(4);
-            this.gpbAgeVehicule.Size = new System.Drawing.Size(291, 142);
-            this.gpbAgeVehicule.TabIndex = 9;
-            this.gpbAgeVehicule.TabStop = false;
-            this.gpbAgeVehicule.Text = "Age du véhicule";
-            // 
-            // rdbOccas5OuPlus
-            // 
-            this.rdbOccas5OuPlus.AutoSize = true;
-            this.rdbOccas5OuPlus.Location = new System.Drawing.Point(8, 110);
-            this.rdbOccas5OuPlus.Margin = new System.Windows.Forms.Padding(4);
-            this.rdbOccas5OuPlus.Name = "rdbOccas5OuPlus";
-            this.rdbOccas5OuPlus.Size = new System.Drawing.Size(115, 21);
-            this.rdbOccas5OuPlus.TabIndex = 3;
-            this.rdbOccas5OuPlus.Text = "Plus de 5 ans";
-            this.rdbOccas5OuPlus.UseVisualStyleBackColor = true;
-            // 
-            // rdbOccas3a5
-            // 
-            this.rdbOccas3a5.AutoSize = true;
-            this.rdbOccas3a5.Location = new System.Drawing.Point(8, 81);
-            this.rdbOccas3a5.Margin = new System.Windows.Forms.Padding(4);
-            this.rdbOccas3a5.Name = "rdbOccas3a5";
-            this.rdbOccas3a5.Size = new System.Drawing.Size(88, 21);
-            this.rdbOccas3a5.TabIndex = 2;
-            this.rdbOccas3a5.Text = "3 à 5 ans";
-            this.rdbOccas3a5.UseVisualStyleBackColor = true;
-            // 
-            // rdbOccasMoins3
-            // 
-            this.rdbOccasMoins3.AutoSize = true;
-            this.rdbOccasMoins3.Location = new System.Drawing.Point(8, 52);
-            this.rdbOccasMoins3.Margin = new System.Windows.Forms.Padding(4);
-            this.rdbOccasMoins3.Name = "rdbOccasMoins3";
-            this.rdbOccasMoins3.Size = new System.Drawing.Size(125, 21);
-            this.rdbOccasMoins3.TabIndex = 1;
-            this.rdbOccasMoins3.Text = "Moins de 3 ans";
-            this.rdbOccasMoins3.UseVisualStyleBackColor = true;
-            // 
-            // rdbNeuf
-            // 
-            this.rdbNeuf.AutoSize = true;
-            this.rdbNeuf.Location = new System.Drawing.Point(8, 23);
-            this.rdbNeuf.Margin = new System.Windows.Forms.Padding(4);
-            this.rdbNeuf.Name = "rdbNeuf";
-            this.rdbNeuf.Size = new System.Drawing.Size(59, 21);
-            this.rdbNeuf.TabIndex = 0;
-            this.rdbNeuf.Text = "Neuf";
-            this.rdbNeuf.UseVisualStyleBackColor = true;
             // 
             // txtNumImmat
             // 
@@ -286,7 +221,6 @@
             this.Controls.Add(this.txtNouveauVhc);
             this.Controls.Add(this.txtDate1ereImat);
             this.Controls.Add(this.txtPuissance);
-            this.Controls.Add(this.gpbAgeVehicule);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
@@ -295,20 +229,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Credit Celeste - VoitureNeuve";
             this.Load += new System.EventHandler(this.frmVoiture_Load);
-            this.gpbAgeVehicule.ResumeLayout(false);
-            this.gpbAgeVehicule.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox gpbAgeVehicule;
-        private System.Windows.Forms.RadioButton rdbOccas5OuPlus;
-        private System.Windows.Forms.RadioButton rdbOccas3a5;
-        private System.Windows.Forms.RadioButton rdbOccasMoins3;
-        private System.Windows.Forms.RadioButton rdbNeuf;
         private System.Windows.Forms.TextBox txtNumImmat;
         private System.Windows.Forms.TextBox txtNouveauVhc;
         private System.Windows.Forms.TextBox txtDate1ereImat;
