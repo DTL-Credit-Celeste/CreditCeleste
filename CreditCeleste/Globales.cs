@@ -8,19 +8,26 @@ namespace CreditCeleste
 {
     static class Globales   // pas la peine de faire un new, classe statique
     {
+        // DTLA = Daniels, Thierry, Ludo, Alexandru
 
-        // public string nomUtilisateur = "Soares";      // un seul ;    attribut de l'objet
+        // public string nomUtilisateur = "DTLA";      // un seul ;    attribut de l'objet
 
-        public static string nomUtilisateur = "Soares";  // un seul ;    attribut de classe
+        // utilisateur et region
+        public static string nomUtilisateur = "DTLA";   // un seul ;    attribut de classe
         public static string region = "Alsace";
-        public static frmIntro fenIntro;
+
+        // forms
         public static frmAccueil fenAccueil;
+        public static frmIntro fenIntro;
         public static frmVoiture fenVoiture;
-        public static frmAssurance fenAssurance;
         public static frmVoitureOccasion fenVoitureOccasion;
+        public static frmAssurance fenAssurance;
+
+        // autre
         public static Concession uneConcession;
-        public static Voiture uneVoiture;
         public static Client unClient;
+        public static Voiture uneVoiture;
+
         public static string nomVendeur;
         public static string btnAgeCocher;
     }

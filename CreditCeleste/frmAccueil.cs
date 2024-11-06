@@ -44,6 +44,7 @@ namespace CreditCeleste
             //{
             //}
 
+            // creation et ouverture de Introduction
             Globales.fenIntro = new frmIntro();
             Globales.fenIntro.FormClosed += new FormClosedEventHandler(FenIntro_FormClosed);
             Globales.fenIntro.Show();
@@ -51,7 +52,7 @@ namespace CreditCeleste
             this.Hide();
         }
 
-        void FenIntro_FormClosed(object sender, FormClosedEventArgs e)
+        void FenIntro_FormClosed(object sender, FormClosedEventArgs e)  // que faire a la fermeture de Introduction
         {
             this.Show();
         }
