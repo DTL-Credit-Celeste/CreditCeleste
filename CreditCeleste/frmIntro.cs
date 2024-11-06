@@ -31,38 +31,38 @@ namespace CreditCeleste
             //      afficher sur tous les écrans le nom du vendeur
             // lblNomVendeur.Text
 
-            if (Globales.uneVoiture != null)
-            {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+            //if (Globales.uneVoiture != null)
+            //{
+            //    foreach (Control xControl in gpbAgeVehicule.Controls)
+            //    {
+            //        if (xControl is RadioButton radioButton)
+            //        {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+            //            if (radioButton.Name == Globales.btnAgeCocher)
+            //            {
+            //                radioButton.Checked = true;
+            //                break; // Sort de la boucle une fois trouvé
+            //            }
+            //        }
+            //    }
 
-            }
-            else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
-            {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+            //}
+            //else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
+            //{
+            //    foreach (Control xControl in gpbAgeVehicule.Controls)
+            //    {
+            //        if (xControl is RadioButton radioButton)
+            //        {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+            //            if (radioButton.Name == Globales.btnAgeCocher)
+            //            {
+            //                radioButton.Checked = true;
+            //                break; // Sort de la boucle une fois trouvé
+            //            }
+            //        }
+            //    }
 
-            }
+            //}
 
             if (Globales.unClient != null)
             {
@@ -83,21 +83,21 @@ namespace CreditCeleste
                 return false; 
             }
 
-            bool radioSelected = false;
-            foreach (Control xControl in gpbAgeVehicule.Controls)
-            {
-                if (xControl is RadioButton radioButton && radioButton.Checked)
-                {
-                    radioSelected = true;
-                    break;
-                }
-            }
+            //bool radioSelected = false;
+            //foreach (Control xControl in gpbAgeVehicule.Controls)
+            //{
+            //    if (xControl is RadioButton radioButton && radioButton.Checked)
+            //    {
+            //        radioSelected = true;
+            //        break;
+            //    }
+            //}
 
-            if (!radioSelected)
-            {
-                MessageBox.Show("Veuillez sélectionner une option d'âge pour le véhicule.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false; 
-            }
+            //if (!radioSelected)
+            //{
+            //    MessageBox.Show("Veuillez sélectionner une option d'âge pour le véhicule.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    return false; 
+            //}
 
             if (string.IsNullOrWhiteSpace(txtNouvVhc.Text) && string.IsNullOrWhiteSpace(txtAncVhc.Text))
             {
@@ -126,15 +126,15 @@ namespace CreditCeleste
 
             string affichage = cboCiv.Text + " " + txtNom.Text + " " +txtPrenom.Text + Environment.NewLine + cboVendeur.Text;
 
-            foreach (Control xControl in gpbAgeVehicule.Controls)
-            {
-                if (xControl is RadioButton radioButton && radioButton.Checked)
-                {
-                    Globales.btnAgeCocher = radioButton.Name;
-                    affichage += Environment.NewLine + radioButton.Text;
-                    break;
-                }
-            }
+            //foreach (Control xControl in gpbAgeVehicule.Controls)
+            //{
+            //    if (xControl is RadioButton radioButton && radioButton.Checked)
+            //    {
+            //        Globales.btnAgeCocher = radioButton.Name;
+            //        affichage += Environment.NewLine + radioButton.Text;
+            //        break;
+            //    }
+            //}
 
             if (!string.IsNullOrEmpty(txtNouvVhc.Text))
             {
@@ -162,42 +162,42 @@ namespace CreditCeleste
         {
             this.Show();
 
-            if (Globales.uneVoiture != null)
-            {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+        //    if (Globales.uneVoiture != null)
+        //    {
+        //        foreach (Control xControl in gpbAgeVehicule.Controls)
+        //        {
+        //            if (xControl is RadioButton radioButton)
+        //            {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+        //                if (radioButton.Name == Globales.btnAgeCocher)
+        //                {
+        //                    radioButton.Checked = true;
+        //                    break; // Sort de la boucle une fois trouvé
+        //                }
+        //            }
+        //        }
 
-                if(!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
-                {
-                    txtNouvVhc.Text = Globales.uneVoiture.getnomvehicule();
-                }
-            }
-            else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
-            {
-                foreach (Control xControl in gpbAgeVehicule.Controls)
-                {
-                    if (xControl is RadioButton radioButton)
-                    {
+        //        if(!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
+        //        {
+        //            txtNouvVhc.Text = Globales.uneVoiture.getnomvehicule();
+        //        }
+        //    }
+        //    else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
+        //    {
+        //        foreach (Control xControl in gpbAgeVehicule.Controls)
+        //        {
+        //            if (xControl is RadioButton radioButton)
+        //            {
 
-                        if (radioButton.Name == Globales.btnAgeCocher)
-                        {
-                            radioButton.Checked = true;
-                            break; // Sort de la boucle une fois trouvé
-                        }
-                    }
-                }
+        //                if (radioButton.Name == Globales.btnAgeCocher)
+        //                {
+        //                    radioButton.Checked = true;
+        //                    break; // Sort de la boucle une fois trouvé
+        //                }
+        //            }
+        //        }
 
-            }
+        //    }
         }
 
         private void cboVendeur_SelectedIndexChanged(object sender, EventArgs e)
@@ -212,6 +212,108 @@ namespace CreditCeleste
         private void btnValider_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnVoitureOccasion_Click(object sender, EventArgs e)
+        {
+            Globales.fenVoitureOccasion = new frmVoitureOccasion();
+            Globales.fenVoitureOccasion.FormClosed += new FormClosedEventHandler(FenVoitureOccasion_FormClosed);
+            Globales.fenVoitureOccasion.Show();
+
+            this.Hide();
+        }
+
+        void FenVoitureOccasion_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+
+            //    if (Globales.uneVoiture != null)
+            //    {
+            //        foreach (Control xControl in gpbAgeVehicule.Controls)
+            //        {
+            //            if (xControl is RadioButton radioButton)
+            //            {
+
+            //                if (radioButton.Name == Globales.btnAgeCocher)
+            //                {
+            //                    radioButton.Checked = true;
+            //                    break; // Sort de la boucle une fois trouvé
+            //                }
+            //            }
+            //        }
+
+            //        if(!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
+            //        {
+            //            txtNouvVhc.Text = Globales.uneVoiture.getnomvehicule();
+            //        }
+            //    }
+            //    else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
+            //    {
+            //        foreach (Control xControl in gpbAgeVehicule.Controls)
+            //        {
+            //            if (xControl is RadioButton radioButton)
+            //            {
+
+            //                if (radioButton.Name == Globales.btnAgeCocher)
+            //                {
+            //                    radioButton.Checked = true;
+            //                    break; // Sort de la boucle une fois trouvé
+            //                }
+            //            }
+            //        }
+
+            //    }
+        }
+
+        private void btnInfo_Click(object sender, EventArgs e)
+        {
+            Globales.fenAccueil = new frmAccueil();
+            Globales.fenAccueil.FormClosed += new FormClosedEventHandler(FenAccueil_FormClosed);
+            Globales.fenAccueil.Show();
+
+            this.Hide();
+        }
+
+        void FenAccueil_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+
+            //    if (Globales.uneVoiture != null)
+            //    {
+            //        foreach (Control xControl in gpbAgeVehicule.Controls)
+            //        {
+            //            if (xControl is RadioButton radioButton)
+            //            {
+
+            //                if (radioButton.Name == Globales.btnAgeCocher)
+            //                {
+            //                    radioButton.Checked = true;
+            //                    break; // Sort de la boucle une fois trouvé
+            //                }
+            //            }
+            //        }
+
+            //        if(!String.IsNullOrEmpty(Globales.uneVoiture.getnomvehicule()))
+            //        {
+            //            txtNouvVhc.Text = Globales.uneVoiture.getnomvehicule();
+            //        }
+            //    }
+            //    else if (!String.IsNullOrEmpty(Globales.btnAgeCocher))
+            //    {
+            //        foreach (Control xControl in gpbAgeVehicule.Controls)
+            //        {
+            //            if (xControl is RadioButton radioButton)
+            //            {
+
+            //                if (radioButton.Name == Globales.btnAgeCocher)
+            //                {
+            //                    radioButton.Checked = true;
+            //                    break; // Sort de la boucle une fois trouvé
+            //                }
+            //            }
+            //        }
+
+            //    }
         }
     }
 }

@@ -48,6 +48,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblVendeur = new System.Windows.Forms.Label();
+            this.btnAssurance = new System.Windows.Forms.Button();
             this.gpbAgeVehicule.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,9 +73,9 @@
             this.rdbOccas5OuPlus.Location = new System.Drawing.Point(8, 110);
             this.rdbOccas5OuPlus.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccas5OuPlus.Name = "rdbOccas5OuPlus";
-            this.rdbOccas5OuPlus.Size = new System.Drawing.Size(177, 21);
+            this.rdbOccas5OuPlus.Size = new System.Drawing.Size(115, 21);
             this.rdbOccas5OuPlus.TabIndex = 3;
-            this.rdbOccas5OuPlus.Text = "Occasion 5 ans ou plus";
+            this.rdbOccas5OuPlus.Text = "Plus de 5 ans";
             this.rdbOccas5OuPlus.UseVisualStyleBackColor = true;
             // 
             // rdbOccas3a5
@@ -83,9 +84,9 @@
             this.rdbOccas3a5.Location = new System.Drawing.Point(8, 81);
             this.rdbOccas3a5.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccas3a5.Name = "rdbOccas3a5";
-            this.rdbOccas3a5.Size = new System.Drawing.Size(171, 21);
+            this.rdbOccas3a5.Size = new System.Drawing.Size(88, 21);
             this.rdbOccas3a5.TabIndex = 2;
-            this.rdbOccas3a5.Text = "Occasion de 3 à 5 ans";
+            this.rdbOccas3a5.Text = "3 à 5 ans";
             this.rdbOccas3a5.UseVisualStyleBackColor = true;
             // 
             // rdbOccasMoins3
@@ -94,9 +95,9 @@
             this.rdbOccasMoins3.Location = new System.Drawing.Point(8, 52);
             this.rdbOccasMoins3.Margin = new System.Windows.Forms.Padding(4);
             this.rdbOccasMoins3.Name = "rdbOccasMoins3";
-            this.rdbOccasMoins3.Size = new System.Drawing.Size(156, 21);
+            this.rdbOccasMoins3.Size = new System.Drawing.Size(125, 21);
             this.rdbOccasMoins3.TabIndex = 1;
-            this.rdbOccasMoins3.Text = "Occasion - de 3 ans";
+            this.rdbOccasMoins3.Text = "Moins de 3 ans";
             this.rdbOccasMoins3.UseVisualStyleBackColor = true;
             // 
             // rdbNeuf
@@ -253,11 +254,23 @@
             this.lblVendeur.TabIndex = 25;
             this.lblVendeur.Text = "/";
             // 
+            // btnAssurance
+            // 
+            this.btnAssurance.Location = new System.Drawing.Point(121, 285);
+            this.btnAssurance.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAssurance.Name = "btnAssurance";
+            this.btnAssurance.Size = new System.Drawing.Size(100, 35);
+            this.btnAssurance.TabIndex = 26;
+            this.btnAssurance.Text = "Assurance";
+            this.btnAssurance.UseVisualStyleBackColor = true;
+            this.btnAssurance.Click += new System.EventHandler(this.btnAssurance_Click);
+            // 
             // frmVoiture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 333);
+            this.Controls.Add(this.btnAssurance);
             this.Controls.Add(this.lblVendeur);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -311,5 +324,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblVendeur;
+        private System.Windows.Forms.Button btnAssurance;
     }
 }
